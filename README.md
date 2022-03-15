@@ -5,4 +5,4 @@
 ### 项目运行
 ``yarn run dev``
 ### 运行示例
-https://github.com/Lxy0707s/react-book-store/blob/main/public/book-store-exp1.png
+![image]( public/book-store-exp1.png)
