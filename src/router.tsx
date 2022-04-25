@@ -5,8 +5,7 @@ import { RouteObject } from 'react-router-dom'
 const Detail = lazy(() => import('./pages/Detail'));
 const Home = lazy(() => import('./pages/Home'));
 const Login = lazy(() => import('./pages/Login'));
-const User = lazy(() => import('./pages/User'));
-const Test = lazy(() => import('./pages/Test'));
+const UserPage = lazy(() => import('./pages/User/index'));
 const BookPage  = lazy(() => import('./pages/BookPage/index'));
 const NotFound = lazy(() => import('./pages/Exception/403'));
 
@@ -35,15 +34,11 @@ export const routers: RouteObject[] = [
             },
             {
                 path: '/user/list',
-                element: lazyLoad(<User />)
+                element: lazyLoad(<UserPage />)
             },
             {
                 path: '/user/detail/:id',
                 element: lazyLoad(<Detail />)
-            },
-            {
-                path: '/user/test',
-                element: lazyLoad(<Test />)
             },
             {
                 path: '/data-center/books',

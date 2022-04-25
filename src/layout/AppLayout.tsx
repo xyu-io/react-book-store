@@ -57,10 +57,6 @@ export default function AppLayout() {
                                 <Menu.Item key="/user/list" onClick ={handleMenuClick}>
                                     <Link to='/user/list'>用户信息</Link>
                                 </Menu.Item>
-                                <Menu.Item key="/user/test" onClick ={handleMenuClick}>
-                                    <Link to='/user/test'>测试页面</Link>
-                                </Menu.Item>
-
                             </SubMenu>
                             <SubMenu key="data-center" icon={<LaptopOutlined />} title="数据中心">
                                 <Menu.Item key="/data-center/books" onClick ={handleMenuClick}>

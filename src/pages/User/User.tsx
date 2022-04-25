@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 
@@ -14,4 +15,4 @@ export default function User() {
             </ul>
         </div>
     )
-}
+}*/

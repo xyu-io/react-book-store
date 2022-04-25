@@ -2,7 +2,7 @@
 import {BookParams, BookModel, GetInfoParams} from "../pages/BookPage/interface/model.interface";
 import {getFetch, postFetch} from "../utils/httpUtils/RequestTool";
 
-const bashUrl = "http://127.0.0.1:8090/api/v1/book"
+const bashUrl = "http://127.0.0.1:8089/api/v1/book"
 
 
 /**
